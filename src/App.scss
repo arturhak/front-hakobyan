@@ -1,0 +1,36 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: inherit;
+}
+
+.ant-drawer-mask.ant-drawer-mask-blur {
+    backdrop-filter: blur(1px)!important;
+}
+
+.ant-drawer-mask {
+    background: none!important;
+}
+
+.ant-drawer-header  {
+    padding: 2rem 1.25rem 1.56rem 2rem!important;
+}
+
+.ant-modal-close:focus-visible {
+    outline: none!important;
+}
+
+.ant-modal .ant-modal-body {
+    font-size: 1rem;
+    word-wrap: break-word;
+    font-family: Roboto;
+}
+
+.ant-modal-title {
+    font-size: 1.25rem!important;
+    font-weight: 700!important;
+    line-height: 1.87rem!important;
+    letter-spacing: 0!important;
+    color: #000000!important;
+}

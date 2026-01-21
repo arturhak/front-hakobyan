@@ -1,0 +1,29 @@
+.postsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 3rem 23.75rem 10rem 23.75rem;
+}
+
+@media (max-width: 1520px) {
+  .postsList {
+    padding: 3rem 12rem 10rem 12rem;
+  }
+}
+@media (max-width: 1280px) {
+  .postsList {
+    padding: 3rem 8rem 10rem 8rem;
+  }
+}
+@media (max-width: 1024px) {
+  .postsList {
+    padding: 3rem 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .postsList {
+    padding: 1.25rem;
+  }
+}

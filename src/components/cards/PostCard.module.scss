@@ -1,0 +1,67 @@
+.postCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: hidden;
+  background: #fff;
+  flex: 0 0 calc(33.33% - 26.67px);
+  cursor: pointer;
+
+  &__image {
+    width: 100%;
+    display: block;
+  }
+  &__tag {
+    font-size: .8rem;
+    font-weight: 700;
+    line-height: .81rem;
+    letter-spacing: 0;
+    color: #EB0028;
+  }
+  &__title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.87rem;
+    letter-spacing: 0;
+    color: #000000
+  }
+  &__text {
+    margin: 0;
+    font-size: .87rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    color: #929292
+  }
+  &__meta {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: .78rem;
+      color: #9B9B9B;
+    }
+    span:first-child {
+      color: #000000;
+      font-weight: 500;
+    }
+    span:not(:first-child)::before {
+      content: "•";
+      margin: 0 5px;
+      color: #9B9B9B;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .postCard {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .postCard {
+    flex: 0 0 100%;
+  }
+}
