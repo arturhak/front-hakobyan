@@ -48,6 +48,9 @@
   align-items: center;
   position: relative;
   transition: transform .9s ease-in-out;
+  @media (max-width: 768px) {
+    margin-right: -1.7rem;
+  }
 
   .searchIcon {
     cursor: pointer;
