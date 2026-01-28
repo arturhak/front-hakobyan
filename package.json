@@ -2,7 +2,7 @@
   "name": "testproject",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arturhakobyan.github.io/front-hakobyan",
+  "homepage": "https://arturhak.github.io/front-hakobyan",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
