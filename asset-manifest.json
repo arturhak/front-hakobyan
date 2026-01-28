@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/front-hakobyan/static/css/main.8550df17.css",
+    "main.css": "/front-hakobyan/static/css/main.1a7087ae.css",
     "main.js": "/front-hakobyan/static/js/main.f3e8476a.js",
     "static/js/453.420aed12.chunk.js": "/front-hakobyan/static/js/453.420aed12.chunk.js",
     "static/media/logotype.svg": "/front-hakobyan/static/media/logotype.1f7d6f7902153b6d6a401a6f1a2ea311.svg",
@@ -9,12 +9,12 @@
     "static/media/burger.svg": "/front-hakobyan/static/media/burger.5d44693be728b29eafde23ef5100f494.svg",
     "index.html": "/front-hakobyan/index.html",
     "static/media/arrow.svg": "/front-hakobyan/static/media/arrow.efaa015bc5eb5cd464e47365270f41ac.svg",
-    "main.8550df17.css.map": "/front-hakobyan/static/css/main.8550df17.css.map",
+    "main.1a7087ae.css.map": "/front-hakobyan/static/css/main.1a7087ae.css.map",
     "main.f3e8476a.js.map": "/front-hakobyan/static/js/main.f3e8476a.js.map",
     "453.420aed12.chunk.js.map": "/front-hakobyan/static/js/453.420aed12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8550df17.css",
+    "static/css/main.1a7087ae.css",
     "static/js/main.f3e8476a.js"
   ]
 }
